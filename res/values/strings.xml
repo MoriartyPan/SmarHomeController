@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartHomeController</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+	<string name="fucking_day">What a fucking day!</string>
+	<string name="Sign_up">欢迎来到注册页面！</string>
+    <string name="account">账号:</string>
+    <string name="password">密码:</string>
+	<string name="userid">用户id:</string>
+    <string name="familyid">家庭码:</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_in">登录</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="save">修改</string>
+    <string name="useredit">修改资料</string>
+    <string name="refresh">刷新</string>
+    <string name="add">添加</string>
+    <string name="back">返回</string>
+    <string name="devices">设备</string>
+    <string name="notes">留言</string>
+    <string name="me">我</string>
+    <string name="appupdate">检查版本更新</string>
+    <string name="addpicture">后期加图片！！！</string>
+    <string name="notesedit">请在此输入留言:</string>
+    <string name="sendnotes">发布留言</string>
+    <string name="searchRoom">查看房间列表</string>
+    <string name="searchDevices">查看设备列表</string>
+    <string name="addDevices">添加新的设备</string>
+    <string name="addRoom">添加新的房间</string>
+    <string name="Ipsetting">IP设置</string>
+    <string name="ip">IP地址:</string>
+    <string name="myInformation">我的资料</string>
+    <string name="aboutApp">关于软件</string>
+    <string name="setting">设置</string>
+    <string name="devicessetting">设备管理</string>
+    <string name="adddevices">添加设备</string>
+    <string name="addroom">添加房间</string>
+    <string name="roommanage">房间管理</string>
+    <string name="devicesid">设备id:</string>
+    <string name="roomid">房间id:</string>
+    <string name="devicesname">设备名称:</string>
+    <string name="roomname">房间名称:</string>
+    <string name="deviceslocation">设备位置:</string>
+    <string name="roomtype">房间类型:</string>
+    <string name="devicesstatus">设备状态</string>
+    <string name="ipdefault">192.168.137.1</string>
+    <string name="ExplainRoomType">“1”为客厅 “2”为主卧 “3”为客卧</string>
+    <string name="RoomList">房间列表：</string>
+</resources>

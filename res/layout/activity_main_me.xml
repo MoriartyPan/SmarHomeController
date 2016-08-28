@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+     >
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout 
+            android:id="@+id/myinfo_layout"
+            style="@style/top_layout">
+            <TextView 
+                style="@style/usertext" 
+                android:text="@string/myInformation" />
+          	<ImageView 
+          	    android:contentDescription="@style/img_arrow" 
+          	    style="@style/img_arrow"/>
+        </LinearLayout>
+        
+        <!-- 分割线 -->
+          <View style="@style/bg_line"/>
+          <!-- 无圆角-->
+       <LinearLayout 
+           android:id="@+id/aboutapp_layout"
+           style="@style/mid_layout">
+            <TextView 
+                style="@style/usertext" 
+                android:text="@string/aboutApp" />
+          	<ImageView 
+          	    android:contentDescription="@style/img_arrow"
+          	    style="@style/img_arrow"/>
+        </LinearLayout>
+             <View style="@style/bg_line"/>
+          <!-- 下圆角-->
+       <LinearLayout 
+           android:id="@+id/setting_layout"
+           style="@style/bottom_layout">
+            <TextView 
+                style="@style/usertext" 
+                android:text="@string/setting" />
+          	<ImageView 
+          	    android:contentDescription="@style/img_arrow"
+          	    style="@style/img_arrow"/>
+        </LinearLayout>
+             
+    </LinearLayout> 
+</LinearLayout>

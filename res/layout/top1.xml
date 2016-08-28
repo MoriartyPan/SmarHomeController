@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/top1layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/id_tab_deviceslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip">
+            
+            <TextView 
+                android:id="@+id/id_devices_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/devices"
+                android:textColor="@color/green"
+                android:textSize="15dip"
+                />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/id_tab_notes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip"
+            android:saveEnabled="false">
+            
+            <TextView 
+                android:id="@+id/id_notes_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/notes"
+                android:textColor="@color/black"
+                android:textSize="15dip"/>           
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/id_tab_me_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/guide_round"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip">
+            
+            <TextView 
+                android:id="@+id/id_me_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/me"
+                android:textColor="@color/black"
+                android:textSize="15dip"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+ 
+    <ImageView 
+        android:id="@+id/id_tab_line"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vpi__tab_selected_pressed_holo"/>
+    
+</LinearLayout>

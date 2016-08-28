@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/Sign_up"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+     </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/EditRel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <RelativeLayout
+            android:id="@+id/AccountRel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/Account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/account"
+                android:textSize="17sp" />
+            <EditText
+                android:id="@+id/AccountEdittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dip"
+                android:layout_toEndOf="@id/Account"
+                android:background="@null"
+                android:hint="@string/account"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/PasswordRel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AccountRel"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/password"
+                android:textSize="17sp" />
+            <EditText
+                android:id="@+id/PasswordEdittext"
+                android:inputType="textPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dip"
+                android:layout_toEndOf="@id/Password"
+                android:background="@null"
+                android:hint="@string/password"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/FamilyidRel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PasswordRel"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/Familyid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/familyid"
+                android:textSize="17sp" />
+            <EditText
+                android:id="@+id/FamilyidEdittext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dip"
+                android:layout_toEndOf="@id/Familyid"
+                android:background="@null"
+                android:inputType="number"
+                android:hint="@string/familyid"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/IPRel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/FamilyidRel"
+            android:clickable="true"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/Ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/ip"
+                android:textSize="17sp" />
+            <EditText
+                android:id="@+id/txtipset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dip"
+                android:layout_toEndOf="@id/Ip"
+                android:background="@null"
+                android:hint="@string/ip"
+                android:textSize="15sp"
+                android:text="@string/ipdefault" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/cancel"
+            style="android:attr/buttonBarStyle" />
+        <Button
+            android:id="@+id/Sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/sign_up"
+            style="android:attr/buttonBarStyle"/>
+    </LinearLayout>
+</LinearLayout>

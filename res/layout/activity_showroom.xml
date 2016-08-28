@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roominfo"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:weightSum="1"
+    android:background="#F0F3F6" >
+    <LinearLayout 
+        android:id="@+id/linearlayout2"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.94">
+        <ListView 
+            android:id="@+id/showRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true" 
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smarthomecontroller"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SignActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"></activity>
+        <activity 
+            android:name=".MainActivity"></activity>
+        <activity
+            android:name=".DevicesManage"></activity>
+        <activity
+            android:name=".AddDevicesActivity"></activity>
+        <activity 
+            android:name=".showDevicesStatsActivity"></activity>
+        <activity 
+            android:name=".showRoomActivity"></activity>
+        <activity 
+            android:name=".AddRoomActivity"></activity>
+        <activity 
+            android:name=".RoomManage"></activity>
+        <activity 
+            android:name=".AboutappActivity"></activity>
+        <activity 
+            android:name=".EditUserinfoActivity"></activity>
+        <activity 
+            android:name=".MyInfoActivity"></activity>
+        <activity 
+            android:name=".NotesManage"></activity>
+        <activity 
+            android:name=".SettingActivity"></activity>
+        <activity 
+            android:name=".DevicesManage1"></activity>
+    </application>
+
+</manifest>
